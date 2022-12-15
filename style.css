@@ -1,0 +1,273 @@
+*{
+	font-family: 'Oswald', sans-serif;
+	scroll-behavior: smooth;
+}
+
+/* Navigation */
+nav{
+	font-size: 22px;
+	background-color: #267CCA;
+}
+
+nav button span{
+	color: #EFA6FF;
+	line-height: 40px;
+	font-size: 25px;
+}
+
+nav ul li a{
+  	text-decoration: none;
+	color: #AC9DFA;
+}
+
+#navigation-home{
+	font-family: 'Lora', serif;
+	color: #00BEFE;
+	font-weight: 700;
+	font-style: italic;
+	font-size: 30px;
+}
+
+.nav-link:hover{
+	color: #E59FF5;
+}
+
+/* Header - Introduction */
+
+#content-intro{
+	background-color: #5AB8EE;
+	padding: 2rem 1rem 2rem;
+}
+
+#content-intro h1{
+	font-size: 40px;
+	font-family: 'Lora', serif;
+	padding: 1rem 0rem 0rem;
+	color: #222335;
+}
+
+#content-intro h2{
+	font-weight: 500;
+	color: #2D6EAD;
+}
+
+#content-intro p{
+	font-family: 'Lora', serif;
+	font-weight: 500;
+	font-style: italic;
+	color: #2D6EAD;
+}
+
+#content-intro img{
+	min-height : 70%;
+  	min-width : 70%;
+  	width: 200px;
+}
+
+.center-block {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+ }
+
+/* Content - Projects */
+
+#content-projects{
+	background-color: #222335;
+	padding: 2rem 4rem 2rem;
+}
+
+#content-projects h2{
+	text-transform: uppercase;
+	letter-spacing: 20px;
+	font-weight: 600;
+	color: #7146D0;
+}
+
+#content-projects h3{
+	font-family: 'Lora', serif;
+	font-weight: 500;
+	font-style: italic;
+	padding: 2rem 0em 0em;
+	color: #5C67E6;
+}
+
+#content-projects .card{
+	background-color: #1D1A2B;
+}
+
+#content-projects .card-body h1{
+	text-transform: uppercase;
+	color: #7EA5F5;
+}
+
+#content-projects .card-body h5{
+	color: #5B5B9B;
+}
+
+#content-projects .card-body p{
+	color: #004B8C;
+}
+
+#content-projects .video-game h1{
+	font-family: 'Lora', serif;
+	font-weight: 500;
+	font-style: italic;
+	color: #404078;
+}
+
+#content-projects video{
+	width: 100%;
+}
+
+/* Content - Experience */
+
+#content-experience{
+	background-color: #1C1C2C;
+	padding: 2rem 3rem 2rem;
+}
+
+#content-experience h1{
+	font-family: 'Lora', serif;
+	font-weight: 800;
+	font-style: italic;
+}
+
+#content-experience h2{
+	text-transform: uppercase;
+	letter-spacing: 10px;
+	font-weight: 500;
+	padding-bottom: 1rem;
+	color: #5374DA;
+}
+#content-experience h3{	
+	font-weight: 500;
+	padding-top: 1rem;
+	color: #838383;
+}
+
+#content-experience img{
+	min-height : 25%;
+  	min-width : 25%;
+  	width: 20px;
+  	border-radius: 50%;
+  	margin: 1rem;
+}
+
+#content-experience .tools{
+	padding-bottom: 2rem;
+}
+
+#content-experience .tools-one img{
+	min-height : 18%;
+  	min-width : 18%;
+  	padding: 4px;
+}
+
+#content-experience .tools-two img{
+	min-height : 18%;
+  	min-width : 18%;
+  	padding: 4px;
+}
+
+#content-experience .card{
+	background-color: #7F64DF;
+	border: none;
+	margin: 1rem;
+}
+
+/* Contents - About */
+
+#content-about{
+	background-color: #415DCC;
+}
+
+#content-about h1{
+	font-family: 'Lora', serif;
+	font-weight: 500;
+	font-style: italic;
+	color: #ADABFF;
+}
+
+#content-about h2{
+	font-style: italic;
+	color: #404078;
+}
+
+#content-about p{
+	font-size: 18px;
+	width: 80%;
+	margin: auto;
+	padding: 1rem 0rem 0rem;
+	color: #12132C;
+}
+
+#content-about .favorite-quote{
+	background-color: #4A9CFF;
+	padding: 1rem;
+	margin: 2rem 0rem;
+}
+
+#content-about .favorite-quote h1{
+	color: #CBDAF2;
+}
+
+#content-about .favorite-quote p{
+	color: #96CBFF;
+}
+
+
+/* Contents - Contact */
+
+#content-contact h2{
+	color: #1F2269;
+	margin: 2rem 0rem 1rem;
+	text-transform: uppercase;
+	font-style: normal;
+	
+}
+
+#content-contact p{
+	color: #1F237B;
+	font-size: 22px;
+
+}
+
+#content-contact button{
+	background-color: transparent;
+	border-style: thick;
+	border-color: #1F237B;
+	width: 100%;
+}
+
+.map-area{
+	width: 550px;
+	height: 570px;
+}
+
+.map-area iframe{
+	width: 100%;
+	height: 100%;
+	border: none;
+}
+
+/* Footer */
+.social-links{
+	padding: 0rem 0rem 2rem;
+}
+
+.social-links img{
+	width: 3rem;
+	padding: 5px;
+}
+
+.social-links .facebook{
+	width: 4rem;
+}
+
+footer{
+	padding: 1rem 0rem;
+	background-color: #1D337D;
+	color: #4C6AD2;
+}
+
